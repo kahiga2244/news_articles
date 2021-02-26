@@ -11,20 +11,19 @@ To view the breakingnews web app click [here] (https://breakingnews--101.herokua
 
 ## User Stories
 
-The user would like to.... :
+You will be able to see:
 
-- See various news sources
-- Select the ones they prefer
-- See the top news articles from that news source
-- See the image, description and time the news article was created
-  Click on an article and read it fully from the news source
+- news sources
+- Select any article
+- Select the top news articles from that various article sites
+- Click on an article and read it fully from the news source
 
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate
 
 - python3.6
-- virtualenv
+- virtualenv(name of environment)
 - pip
 
 #### Set Up
@@ -33,7 +32,7 @@ The user would like to.... :
 
 - git clone `https://github.com/kahiga2244/news_articles.git`
 
-- cd into the news_article folder
+- cd into the news_article folder/preferred folder
 
 - create a virtual environment using the command `$ virtualenv venv`
 
@@ -55,19 +54,13 @@ The user would like to.... :
   $ python3 article_test.py
   $ python3 source_test.py
 
-## Behaviour Driven Development
-
-| Behaviour | Input | Output |
-| Behaviour | Input | Output |
-| :---------------- | :---------------: | ------------------: |
-| Display news sources | **On page load** | List of various news sources is displayed in cards |
-| Display articles from a news source | **Click a news source** | Redirected to a page with articles from the source |
-| Display the preview of an article | **On page load** | Each article displays an image,description and publication date |
-| To Read an entire article | **Click an article** | Redirected to the news source's site to read the entire article |
-
 ## Technologies Used
 
-- python3.6
+- python3.6.9
+- html
+- css
+- flask
+- heroku cli
 
 ## Known Bugs
 
